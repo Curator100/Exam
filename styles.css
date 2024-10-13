@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Komika Axis', sans-serif;
+    background: url('64.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+}
+
+h1 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 3em;
+    color: #FF1E00;
+}
+
+#tagline {
+    font-size: 1.2em;
+    color: #FFDD00;
+    margin-bottom: 20px;
+}
+
+#countdown {
+    font-size: 1.5em;
+    margin: 20px 0;
+}
+
+#timer {
+    color: #73F9FF;
+    font-weight: bold;
+}
+
+.hidden {
+    display: none;
+}
+
+#times-up-message {
+    font-size: 1.5em;
+    color: #FF1E00;
+}
+
+#text-box {
+    margin-top: 30px;
+}
